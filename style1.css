@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image:url("./images/flipcart.jpg");
+}
+
+.main-container{
+    background-color: rgba(229, 235, 241, 0.747);
+    width: 45vw;
+    height: 85vh;
+    display: flex;
+}
+.left{
+    width: 45%;
+    background-color: rgb(10, 33, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2.5rem;
+
+}
+
+.left-container>p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    padding: 2rem;
+}
+
+.right{
+    width: 55;
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+}
+form{
+    /*background-color: black;*/
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input-container{
+    /*background-color: rgb(24, 204, 102);*/
+    height: 30%;
+    
+}
+.input-container>input{
+    padding: 1rem 0rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: medium;
+}
+
+.btn-container{
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.input-container>a{
+    position: relative;
+    left: 16rem;
+    bottom: 3.3rem;
+    border: none;
+}
+.btn-container>input{
+    padding: 0.9rem;
+    width: 100%;
+}
+.btn-container>p{
+    text-align: center;
+}
+.btn-container>input:nth-child(1){
+background-color: orange;
+font-weight: bold;
+color: aliceblue;
+letter-spacing: 1px;
+font-size: large;
+}
+
+.btn-container>input:nth-child(3){
+    background-color: white;
+    color: blue;
+}
